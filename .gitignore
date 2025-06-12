@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+venv/
+env/
+.env
+*.log
+
+# Secrets
+*.json  # Be careful if you have legitimate json files you want to commit
+client_secret.json
+credentials.json
+secrets.txt
+*.pem
+*.key
+
+# IDE specific
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
